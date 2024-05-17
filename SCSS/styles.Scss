@@ -1,0 +1,12 @@
+$ascent-color: #c4f82a;
+$card-background-color: #1f1f1f;
+$text-color: #ffffff;
+$text-secondary-color:#c9e861;
+
+.main-container{
+    display: flex;
+    flex-direction: column; 
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
