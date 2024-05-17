@@ -1,7 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #141414;
+  font-family: "Poppins", sans-serif;
+}
+
 .main-container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  justify-content: center;
+  height: 500px;
+  margin-left: 40px;
+  margin-right: 40px;
+  justify-content: space-around;
   align-items: center;
+  background-color: #1f1f1f;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-bottom: 20px;
+  align-self: center;
+}
+
+.profile-name {
+  color: #ffffff;
+  font-size: 2rem;
+  align-self: center;
+  margin-bottom: 10px;
+}
+
+.profile-location {
+  color: #c9e861;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  align-self: center;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 50%;
+  align-items: center;
+}
+
+.quote {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1rem;
 }/*# sourceMappingURL=styles.css.map */
