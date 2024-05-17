@@ -8,6 +8,9 @@ $xl-font-size:2rem;
 $md-font-size:1.8rem;
 $sm-font-size:1rem;
 $button-base-color:#333333;
+$button-active-color:#c4f82a;
+$text-active-color:#1f1f1f;
+
 
 $font: "Poppins", sans-serif;
 *{
@@ -74,6 +77,26 @@ body{
     justify-content: flex-start;
     height: 50%;
     align-items: center;
+}
+.links-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 500px;
+}
+
+.button-gray{
+    background-color: $button-base-color;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    transition: 0.5s ease-in-out;
+    &:hover{
+        background-color: $button-active-color ;
+        color:$text-active-color;
+        transform: scale(1.1);
+    }
 }
 
 .quote{
